@@ -1,0 +1,120 @@
+.itempic {
+    width: 400px;
+    height: 400px;
+}
+article.item{
+    flex-direction: column;
+    padding-top: 10px;
+    width: 460px;
+    height: auto;
+}
+article.item h2{
+    margin-left: 10px;
+    margin-right:  10px;
+    margin-top: 5px;
+}
+div.description{
+    display:flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+div.description p{
+    background-color: lemonchiffon;
+    border-radius: 6px;
+    color: darkkhaki;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.link {
+background-color: lightgray; 
+border-radius: 100px; 
+padding: 10px; 
+color:black; 
+height: 30px !important;
+transform: translateY(18px);
+height: 25px !important;
+}
+.desc {
+	flex-direction: column;
+    padding-top: 10px;
+    width: 560px;
+    height: auto;
+}
+.space {
+	margin-right: 10px;
+}
+.space2 {
+	margin-right: 65px;
+}
+.space3 {
+	margin-right: 68px;
+}
+.about {
+	overflow: hidden;   
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    margin-top: 0px;
+    background-color: white;
+    border-radius: 14px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.4);
+    height: auto;
+    min-width:300px;
+    max-width: 500px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.specs {
+	width: 410px;
+	padding-left: 40px;
+	padding-right: 0px;
+}
+.specs h3 {
+	align-content: left;
+	align-items: left;
+	align-self: left;
+	line-height: 0.1;
+}
+.space4 {
+	margin-right: 140px;
+}
+.space5 {
+	margin-right: 110px;
+}
+.space6 {
+	margin-right: 170px;
+}
+.space7 {
+	margin-right: 20px;
+}
+.space8 {
+	margin-right: 30px;
+}
+.space9 {
+	margin-right: 85px;
+}
+.space10 {
+	margin-right: 75px;
+}
+.space11 {
+	margin-right: 78px;
+}
+.space12 {
+    margin-right: 90px;
+}
+.space13 {
+    margin-right: 25px;
+}

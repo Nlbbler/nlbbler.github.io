@@ -1,4 +1,4 @@
-var breed, breeds, b, n = 0, f;
+var breed, breeds, b, n = 0, f, e;
 
 function start() {
     breed = "posts.xml";
@@ -8,36 +8,17 @@ function start() {
         "dataType": "xml",
         "success": function (data) {
             b = $(data).find("breed");
-
-
-
-            $(function () {
-                while (n < 3) {
-                    f = $(b[n]).html();
-                    $("#show").load("breeds/" + f);
-                    n++;
-                }
-            });
-            ///здесь цикл?
-            
-            ////
+            f = $(b[n]).html();
+            $("#show").load("breeds/" + f);
+            n++;
+            f = $(b[n]).html();
+            $("#show_tab").load("breeds/" + f);
         },
         "failure": function () {
             window.console && console.log("error");
         }
     });
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 var ele, source, dark, dark2, dark3;
@@ -53,6 +34,7 @@ window.onload = function () {
     pre_d2 = document.getElementById('pre2');
     pre_d3 = document.getElementById('pre3');
     pre_d4 = document.getElementById('pre4');
+    
     ele = document.getElementById('hello');
     source = window.pageYOffset + ele.getBoundingClientRect().bottom;
 };

@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <breeds>
-        <breed>sg_bar.html</breed>
         <breed>ksac.html</breed>
+        <breed>cat.html</breed>
+        <breed>sg_bar.html</breed>
 </breeds>
